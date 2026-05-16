@@ -21,7 +21,7 @@ jobs:
           config-file: release-please-config.json
           manifest-file: .release-please-manifest.json
       # Checkout code if release was created
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         if: ${{ steps.release.outputs.release_created }}
       # Setup ruby if a release was created
       - uses: ruby/setup-ruby@v1
