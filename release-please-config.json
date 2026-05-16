@@ -1,0 +1,10 @@
+{
+  "packages": {
+    ".": {
+      "release-type": "ruby",
+      "package-name": "release-please-demo",
+      "version-file": "lib/release/please/demo/version.rb",
+      "bump-minor-pre-major": true
+    }
+  }
+}
