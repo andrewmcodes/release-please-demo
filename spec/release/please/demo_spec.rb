@@ -5,7 +5,7 @@ RSpec.describe Release::Please::Demo do
     expect(Release::Please::Demo::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  it "defines the demo module" do
+    expect(Release::Please::Demo).to be_a(Module)
   end
 end
